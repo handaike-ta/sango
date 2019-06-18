@@ -408,7 +408,28 @@ header img:hover{
     height: auto;
   }
 }
-
+@media(max-width:480px){
+  .art-top ul{
+    width: 93%;
+  }
+  .articles{
+    display: grid;
+    grid-template-columns: 100%;
+    grid-template-areas: "one"
+                         "two"
+                         "three"
+                         "four"
+                         "five"
+                         "six"
+                         "seven"
+                         "eight";
+  }
+  .art{
+    width: 100%;
+    margin: 25px 0 0;
+    max-width: inherit;
+  }
+}
 /*------------------------------------------------*/
 .article-right{
   width: 33.34%;
