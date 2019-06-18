@@ -446,14 +446,13 @@ header img:hover{
 .input-top{
   border: none;
   border-radius:5px 0 0 5px;
-  -webkit-appearance: none;
-  -webkit-border-radius: 5px 0 0 5px;
   box-shadow: 0 3px 5px rgba(0, 0, 0, 0.2);
   font-size: 15px;
   height: 45px;
   margin-top: 50px;
   padding-left: 5px;
   width: 270px;
+  -webkit-appearance: none;
 }
 .input-bottom{
   background-color: #5BA9F7;
@@ -991,6 +990,7 @@ footer{
   height: 45px;
   padding-left: 5px;
   width: 80%;
+  -webkit-appearance: none;
 }
 .input-bottom-two{
   background-color: #5BA9F7;
